@@ -7,8 +7,14 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  const modelName = 'yolov8n_web_model'
-  // const modelName = 'yolo11n_web_model'
+  // ================================
+  // Switch the model here
+  // ================================
+
+  // const modelName = 'yolov8n_web_model'
+  const modelName = 'yolo11n_web_model'
+
+  // ================================
 
   useEffect(() => {
     const loadModel = async () => {
