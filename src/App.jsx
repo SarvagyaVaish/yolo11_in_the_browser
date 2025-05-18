@@ -12,7 +12,7 @@ function App() {
   // ================================
 
   // const modelName = 'yolov8n_web_model'
-  const modelName = 'yolo11n_web_model'
+  const modelName = 'yolo11n_web_model__tfjs_export'
 
   // ================================
 
